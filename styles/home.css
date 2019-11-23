@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 10px;
+}
+
+.container ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar{
+height: 80px;
+}
+
+.navbar-nav{
+    margin-top: 25px;
+}
+.jumbotron{
+    width: 100%;
+   min-height:500px;
+   padding-top: 0px;
+   margin-top: 0px;
+}
+.inputenter{
+    width: 100%;
+    height: 65px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#sect{
+    margin: -20px 0px 0px 0px;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background: url( "../assests/downloadbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#sect h2{
+    text-align: center;
+    /* padding-top: 30px; */
+    font-size: 70px;
+    color: blue;
+}
+#sect h1{
+    text-align: center;
+    /* padding-top: 20px; */
+    font-size: 40px;
+    color: blue;
+
+}
+.registrationbody h1{
+    text-align: center;
+   margin-top: -10px;
+   padding-top: 10px;
+    }
+.btn{
+  
+    }
+
+.teambody h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 24px;
+    }
+
+.teambody h2{
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 40px;
+    }
+.aboutbody h1{
+text-align: center;
+font-size: 40px;
+
+}
+
+.aboutbody h2{
+    font-size: 35px;
+    margin-left: 100px;
+}
+
+.programbody h1{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 20px;
+}
+.contactbody p{
+    text-align: center;
+    padding-top: 5px;
+    }
+
+.studentsbody #stuheading{
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.contactbody h1{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    }
+
+.contactbody .left{
+    width: 550px;
+    height: 350px;
+    margin-right: 10px;
+    margin-top: 30px;
+    float: left;
+    box-sizing: border-box;
+
+}
+.contactbody .plane{
+    width: 100%;
+    height: 60px;
+    margin-right: 10px;
+   
+    float: left;
+    box-sizing: border-box;
+
+}
+.contactbody .right{
+    width: 550px;
+    height: 350px;
+    float: right;
+    margin-top: 30px;
+    box-sizing: border-box;
+
+}
+.contactbody .input{
+    width: 250px;
+    height: 65px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    margin-right: 20px;
+    font-size: 20px;
+
+}
+.contactbody .youremail{
+    width: 520px;
+    height: 65px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.contactbody .yourphone{
+    width: 520px;
+    height: 65px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    margin-top: 30px;
+
+}
+.message{
+    width: 520px;
+    height: 255px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    
+
+}
+
+.studentsbody p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px lightslategray solid;
+
+}
+
+.aboutbody p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+   }
+
+.programbody #paraone{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   border-bottom: 1px white solid;
+   text-align: center;
+   padding-bottom: 20px;
+   padding-top: 30px;  
+   margin-bottom: 100px;
+}
+.programbody #paratwo{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 25px;
+   border-bottom: 1px white solid;
+   border-top: 1px white solid;
+   text-align: center;
+   padding-bottom: 30px;
+   padding-top: 20px;  
+   margin-bottom: 100px;
+}
+
+.teambody #teamone{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   border-bottom: 1px white solid;
+   border-top: 1px white solid;
+   padding-bottom: 20px;
+   padding-top: 20px;  
+  margin-bottom: 60px;
+}
+.teambody #teamtwo{
+    font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   border-bottom: 1px white solid;
+   padding-bottom: 20px;
+   padding-top: 20px;  
+  
+}
+
+.teambody{
+    padding-top: 20px;
+    background-color: #d3e3;
+    width: 100%;
+    height: 545px;
+    margin-top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.aboutbody{
+    padding-top: 20px;
+    background-color: #d3e3;
+    width: 100%;
+    height: 545px;
+    margin-top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.programbody{
+    padding-top: 20px;
+    background-color: #d3e3;
+    width: 100%;
+    height: 545px;
+    margin-top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.contactbody{
+   background-image: url(../assests/globe1.jpg);
+   background-size: cover;
+   position: absolute;
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 500px;
+   margin-top: -20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.studentsbody{
+    padding-top: 20px;
+    background-color: #d3e3;
+    width: 100%;
+    height: 545px;
+    margin-top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.lastpage{
+    margin-top:  500px;
+    width: 100%;
+    height: 78px;
+    background-color: skyblue;
+    color: #000;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 450px;
+    margin-top: -115px;
+
+}
+
+.head a{
+ padding-top: 20px;
+}
+.container ul li{
+    margin-right: 30px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    list-style: none;
+}
+.container ul li a{
+    color: aliceblue;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.container ul li a:hover{
+color: sienna;
+}
+.container ul li #activeabout a{
+    color: sienna;
+    }
+.head a{
+    font-size: 25px;
+    margin-top: 0px;
+    color: whitesmoke;
+    position: absolute;
+    text-decoration: none;
+    font-family: cursive;
+  
+}

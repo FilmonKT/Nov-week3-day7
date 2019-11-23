@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>log in web design</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body style="background-image: url(bglobe)">
+    <div class="container">
+      <div class="jumbotron">
+          <div class="head">
+          <h1>Log in</h1> 
+        </div>
+        <span id="errorDisplay" ></span>
+        <form action="Home.html" id="form">
+            <label><b>Email or Phone number: <span class="glyphicon glyphicon-user"></span> </b></label><br>
+            <input type="Email" placeholder="Enter Email" class="input" id="eml" required><br>
+            <label><b>password: <span class="glyphicon glyphicon-lock"></span> </b></label><br>
+            <input type="password" placeholder="password" class="input" id="psd" required><br><br><br>
+            <button type="submit" id="login" class="btn btn-primary  btn-block">Log in</button><br><br>
+            <h5 class="creat"><a href="#">forget password</a></h5>
+             <h2 class="creat"><a href="#">Creat New Acount</a></h2>
+        </form>
+      </div>
+    </div>
+    <script>
+    var acceptedemail='fala';
+    var acceptedpassword='1234';
+    login.onclick=function(event){
+        event.preventDefault();
+        var email=document.getElementById("eml").value;
+        var password=document.getElementById("psd").value;
+        if(acceptedemail !=email || acceptedpassword !=password){
+            errorDisplay.innerHTML='Error: please insert valid email and password';
+            errorDisplay.style.display='inline';
+            return;
+        }
+        else{
+            window.location='views/Home.html';
+        }
+    }
+    </script>
+</body>
+</html>

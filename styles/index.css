@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-image: url(../assests/landing.jpg);
+   position: absolute;
+   background-repeat:no-repeat;
+   background-size: cover;
+   
+}
+head{
+    padding-top: 0px;
+    margin-bottom: 20px;
+}
+.creat{
+ text-align: center;
+ color: black;
+}
+.creat a{
+      color: black;
+   }
+
+.jumbotron{
+padding-top:30px;
+width: 40%;
+min-height: 300px;
+margin-top: 60px;
+padding-bottom: 30px;
+background-color: #d3e3;
+margin-left: 450px;
+
+}
+.jumbotron img{
+width: 130px;
+height: 130px;
+margin-left: 100px;
+
+}
+.jumbotron h1{
+    text-align: center;
+    
+    
+}
+.jumbotron .input{
+    width: 330px;
+    height: 30px;
+    padding: 3px 3px 3px 10px;
+    border-radius: 5px;
+    border: none;
+}
+.tetx-info{
+    text-align: center;
+    font-size: 10px;
+}
+.jumbotron form h5{
+     margin-top: 0;
+}
+#errorDisplay{
+    color:blue;
+}
